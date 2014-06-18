@@ -87,7 +87,9 @@ document.addEventListener 'keyup', (event) ->
 document.addEventListener Events.TouchEnd, (event) ->
 	return unless flashHintsOnUnhandledTaps
 	event = Events.touchEvent(event)
-	point = { x: event.clientX, y: event.clientY }
+	point =
+    x: event.clientX + window.pageXOffset
+    y: event.clientY + window.pageYOffset
 
 	for layer in Layer.Layers() when shouldHintLayer(layer)
 		frame = new Frame layer.screenFrame()

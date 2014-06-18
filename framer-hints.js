@@ -143,8 +143,8 @@
     }
     event = Events.touchEvent(event);
     point = {
-      x: event.clientX,
-      y: event.clientY
+      x: event.clientX + window.pageXOffset,
+      y: event.clientY + window.pageYOffset
     };
     _ref = Layer.Layers();
     for (_i = 0, _len = _ref.length; _i < _len; _i++) {
