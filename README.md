@@ -1,4 +1,4 @@
-# Highlight Interactive Elements in Framer Prototypes
+# Framer Hints
 
 This small script will highlight interactive elements in your prototype when you hold down `Shift`, or when you tap on an area of your prototype that isn't interactive.
 
@@ -17,8 +17,8 @@ This small script will highlight interactive elements in your prototype when you
   <script src="framer-hints.js"></script>
 
   <script src="app.js"></script>
-
   ```
+
 3. Load `index.html` in your browser and hold down the `Shift` key. You should see elements, which respond to click/touch/draggable events get highlighted.
 
 ## Configuration Options
@@ -26,7 +26,6 @@ This small script will highlight interactive elements in your prototype when you
 You can customize the appearance and behavior of the hints by specifying options in `Framer.Config.hints` before the script has loaded:
 
 ```html
-
 <!-- Specify options: -->
 <script>
 Framer.Config.hints = {
@@ -37,7 +36,6 @@ Framer.Config.hints = {
 
 <!-- Link to the script: -->
 <script src="framer-hints.js"></script>
-
 ```
 
 Here are all the available options:
@@ -64,11 +62,10 @@ Here are all the available options:
 
 ## API
 
-You can show and hide the hints from your own code by calling one of the three exposed methods:
+You can show and hide the hints from your own code by calling one of the three methods available to you:
 
 ```
 FramerHints.show()
 FramerHints.hide()
 FramerHints.flash()
-
 ```
