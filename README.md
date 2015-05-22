@@ -4,6 +4,8 @@ This small script will highlight interactive elements in your prototype when you
 
 [See the demo.](http://tisho.co/framer-hints/example/index.html)
 
+![](http://tisho.co/framer-hints/framer-hints-demo.gif)
+
 ## Usage
 
 ### As a Module in Framer Studio
