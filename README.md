@@ -1,3 +1,5 @@
+# DEPRECATED! This functionality is now built into Framer (http://blog.framerjs.com/posts/improved-sharing.html)
+
 # Framer Hints
 
 This small script will highlight interactive elements in your prototype when you hold down `Shift`, or when you tap on an area of your prototype that isn't interactive.
